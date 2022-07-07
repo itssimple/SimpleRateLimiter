@@ -19,12 +19,12 @@ namespace SimpleRateLimiter
             ConcurrentTasks = new SemaphoreSlim(rateLimitPerSecond);
         }
 
-        public async Task<T> WaitAndRunAsync<T>(Func<Task<T>> action, CancellationToken cancellationToken)
+        public async Task<T?> WaitAndRunAsync<T>(Func<Task<T>> action, CancellationToken cancellationToken)
         {
             Debug.WriteLine($"Task: Checking rate limit");
             DateTime startWait = DateTime.Now;
             if (!await ThrottleRequests(cancellationToken))
-                return default(T);
+                return default;
 
             Debug.WriteLine($"Task: Allowed by rate limit, waiting for semaphore");
 
