@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRateLimiter", "SimpleRateLimiter\SimpleRateLimiter.csproj", "{A65C82C3-173B-4498-9566-114D10AC0616}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A65C82C3-173B-4498-9566-114D10AC0616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65C82C3-173B-4498-9566-114D10AC0616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65C82C3-173B-4498-9566-114D10AC0616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65C82C3-173B-4498-9566-114D10AC0616}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BB35153-E0A4-4B6E-BCC1-9DC6477E952B}
+	EndGlobalSection
+EndGlobal
